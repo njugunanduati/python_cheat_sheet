@@ -25,3 +25,21 @@ type(x)
 ```
 isinstance(x, int)
 ```
+
+### Example 
+Patient object
+    |
+    +-- name             str
+    +-- age              int
+    |
+    +-- vitals           dict
+    |     |
+    |     +-- blood pressure -> tuple
+    |     +-- temperature    -> float
+    |     +-- pulse          -> int
+    |
+    +-- symptoms         set
+    |
+    +-- medications      list
+    |
+    +-- allergies        set
